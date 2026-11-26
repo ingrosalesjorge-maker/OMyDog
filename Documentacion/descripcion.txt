@@ -1,0 +1,10 @@
+Nombre del proyecto: OMyDog
+
+Problema:
+Actualmente muchos dueños de mascotas tienen dificultades para agendar citas rápidas, conocer servicios detallados y confiar en el trato que reciben sus perros en una estética canina.
+
+Objetivo:
+Desarrollar una página web promocional clara y atractiva para OMyDog que presente los servicios de estética y cuidado canino, genere confianza en los clientes y facilite el primer contacto.
+
+Descripción:
+OMyDog es una estética canina enfocada en el bienestar, higiene y estilo de los perros, pensada para tutores que buscan un servicio cuidadoso, profesional y sin estrés para sus mascotas.
