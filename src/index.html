@@ -4,25 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMyDog - Estética Canina</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fdf8f2;
+            color: #2b2b2b;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2f6f6d;
+            color: #ffffff;
+            text-align: center;
+            padding: 48px 20px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 14px;
+        }
+
+        header p {
+            max-width: 720px;
+            margin: 0 auto 12px auto;
+            font-size: 1.05rem;
+        }
+
+        .btn-cta {
+            display: inline-block;
+            margin-top: 14px;
+            padding: 12px 26px;
+            background-color: #f4a261;
+            color: #1f1f1f;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .btn-cta:hover {
+            background-color: #e78f4a;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 32px auto;
+            padding: 0 20px;
+        }
+
+        .banner {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .banner img {
+            width: 100%;
+            max-width: 860px;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #ece3d5;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        h2 {
+            color: #2f6f6d;
+            margin-bottom: 12px;
+            font-size: 1.4rem;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background-color: #223837;
+            color: #f4f4f4;
+            text-align: center;
+            padding: 28px 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Tu perro merece verse y sentirse increíble en OMyDog</h1>
         <p>En OMyDog ofrecemos servicios de baño relajante, corte de raza y estilismo canino con un trato cariñoso, paciente y pensado para el bienestar de tu mejor amigo.</p>
         <p>Ven a descubrir una experiencia de estética canina diseñada para que tu perro disfrute cada visita y regrese a casa feliz y limpio.</p>
+        <a href="#beneficios" class="btn-cta">Conoce más</a>
     </header>
 
     <main>
-        <section id="banner">
-            <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1000&q=80" alt="Perro limpio y feliz en estética canina OMyDog" width="600">
-        </section>
+        <div class="banner">
+            <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1000&q=80" alt="Perro limpio y feliz en estética canina OMyDog">
+        </div>
 
-        <section id="utilidad">
+        <section class="card" id="utilidad">
             <h2>¿Por qué elegir OMyDog?</h2>
             <p>Contar con un espacio especializado y organizado te permite ahorrar tiempo, evitar traslados innecesarios sin saber disponibilidad y dejar a tu mascota en manos de personas que priorizan su calma y seguridad.</p>
         </section>
 
-        <section id="beneficios">
+        <section class="card" id="beneficios">
             <h2>Beneficios para ti y tu perro</h2>
             <ul>
                 <li><strong>Trato libre de estrés:</strong> Trabajamos a su ritmo, sin prisas ni jaulas innecesarias, cuidando su comodidad en todo momento.</li>
@@ -31,5 +135,12 @@
             </ul>
         </section>
     </main>
+
+    <footer id="contacto">
+        <h2>Contacto — OMyDog</h2>
+        <p>Dirección ficticia: Av. de los Huellas #245, Col. Jardines del Parque</p>
+        <p>Teléfono: (55) 1234-5678 | Correo: contacto@omydog-ejemplo.mx</p>
+        <p>Horario: Lunes a Sábado de 9:00 a 19:00 hrs</p>
+    </footer>
 </body>
 </html>
